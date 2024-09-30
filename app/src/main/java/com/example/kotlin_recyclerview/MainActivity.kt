@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var itemAdapter: ItemAdapter
     private val items = mutableListOf<Item>() // Use MutableList to allow dynamic changes
 
-    // Change 1
+    // Change 1 hello
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
